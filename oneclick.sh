@@ -19,17 +19,17 @@ apt install -y vim
 
 # 安装 x-ui 面板
 echo "安装 x-ui 面板..."
-bash <(curl -Ls https://raw.githubusercontent.com/alienip2023/autoxui/main/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/plus1998/my-vless/main/install.sh)
 
 # 运行配置脚本
 echo "运行配置脚本..."
-bash <(curl -Ls https://raw.githubusercontent.com/alienip2023/autoxui/main/d11.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/plus1998/my-vless/main/d11.sh)
 
 # 配置数据库
 echo "配置数据库..."
 cd /etc/x-ui/
 rm -rf x-ui.db
-wget https://raw.githubusercontent.com/alienip2023/autoxui/main/x-ui.db
+wget https://raw.githubusercontent.com/plus1998/my-vless/main/x-ui.db
 
 # 重启 x-ui 服务
 echo "重启 x-ui 服务..."
